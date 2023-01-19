@@ -8,6 +8,7 @@ $M_{BH} = f\frac{R_{BH}v^{2}}{G}$
 For a spherical distribution, f = 3/4. 
 
 <p align='center'><img src="https://heasarc.gsfc.nasa.gov/docs/objects/agn/agn_model.gif"></p>
+<p align='center'><b>Figure:</b> Parts of a Black Hole. Credit: C.M. Urry and P. Padovani</p>
 
 `Step 1` Go to the [NED Archive] (http://ned.ipac.caltech.edu/) and search for a preferred AGN object </br>
 `Step 2` From the <b>Overview</b> option note down the <b> z (Helio) </b> value. </br>
