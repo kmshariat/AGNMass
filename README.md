@@ -7,7 +7,7 @@ $M_{BH} = f\frac{R_{BH}v^{2}}{G}$
 
 For a spherical distribution, f = 3/4. 
 
-`Step 1` Go to the [NED Archive] (http://ned.ipac.caltech.edu/) and search for a preferred AGN object
-`Step 2` From the <b>Overview</b> option note down the <b> z (Helio) </b> value. 
-`Step 3` Go to the <b>Spectra</b> option and choose an aprropriate spetra withing the range of the sourced wavelength and comparatively better resolution. Then down the data for that spectra using the <b>NED-ASCII</b> sheet.   
-`Step 4` Get rid of the additional data besides Spectral-Axis and Intensity. 
+`Step 1` Go to the [NED Archive] (http://ned.ipac.caltech.edu/) and search for a preferred AGN object </br>
+`Step 2` From the <b>Overview</b> option note down the <b> z (Helio) </b> value. </br>
+`Step 3` Go to the <b>Spectra</b> option and choose an aprropriate spetra withing the range of the sourced wavelength and comparatively better resolution. Then down the data for that spectra using the <b>NED-ASCII</b> sheet.   </br>
+`Step 4` Get rid of the additional data besides Spectral-Axis and Intensity. </br>
