@@ -19,7 +19,7 @@ d = 18.5*3.086e+24
 #Source Data
 wave_src = wave_obs/(1+z)
 intensity_src = intensity_obs*(1+z)
-lum_src = intensity_src*wave_obs*4*np.pi*d**2
+lum_src = intensity_src*wave_src*4*np.pi*d**2
 
 #Spectrum
 #plt.plot(wave_src,lum_src)
