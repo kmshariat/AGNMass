@@ -14,4 +14,4 @@ For a spherical distribution, f = 3/4.
 `Step 2` From the <b>Overview</b> option note down the <b> z (Helio) </b> value. </br>
 `Step 3` Go to the <b>Spectra</b> option and choose an aprropriate spetra withing the range of the sourced wavelength and comparatively better resolution. Then down the data for that spectra using the <b>NED-ASCII</b> sheet.   </br>
 `Step 4` Get rid of the additional data besides Spectral-Axis and Intensity. </br>
-`Step 5` Use $\lambda _{src} = \frac{\lambda_{src}}{1+z} $ and $F_{src} = (1+z) F_{obs}$ formulas to calculate the sourced wavelenght and sourced intensity.
+`Step 5` Use $$\lambda _{src} = \frac{\lambda_{src}}{1+z} $$ and $$ F_{src} = (1+z) F_{obs}$$ formulas to calculate the sourced wavelenght and sourced intensity.
