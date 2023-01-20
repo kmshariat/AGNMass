@@ -18,5 +18,5 @@ For a spherical distribution, f = 3/4.
 
 $x_s = x_o/(1+z) $ </br>
 $ F_s = (1+z) \times F_o $ 
-$M_{BH} = f\frac{R_{BH}v^{2}}{G}$
+$X_{src} = f\frac{R_{BH}v^{2}}{G}$
 formulas to calculate the sourced wavelenght and sourced intensity.
