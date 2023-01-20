@@ -19,6 +19,9 @@ For a spherical distribution, f = 3/4.
 $\lambda_{src} = \frac{\lambda_{obs}}{1+z}$ </br>
 $F_{src} = F_{obs}(1+z)$
 
-formulas to calculate the sourced wavelenght and sourced intensity.
+formulas to calculate the sourced wavelenght and sourced intensity. 
 `Step 6` Calculate the luminosity of the AGN using the formula below: 
-$L_{src} = F_{src} \times \lambda_{src} \times (4\times \pi \times d_L^2)$
+$L_{src} = F_{src} \times \lambda_{src} \times (4 \pi d_L^2)$ 
+</br>
+
+`Step 7` Plot the Luminosity Vs Wavelenght graph from ranging 5000 angstrom to 5200 angstrom. 
