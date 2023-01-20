@@ -20,3 +20,5 @@ $\lambda_{src} = \frac{\lambda_{obs}}{1+z}$ </br>
 $F_{src} = F_{obs}(1+z)$
 
 formulas to calculate the sourced wavelenght and sourced intensity.
+`Step 6` Calculate the luminosity of the AGN using the formula below: 
+$L_{src} = F_{src} \times \lambda_{src} \times (4\times \pi \times d_L^2)$
