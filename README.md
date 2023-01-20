@@ -16,7 +16,7 @@ For a spherical distribution, f = 3/4.
 `Step 4` Get rid of the additional data besides Spectral-Axis and Intensity. </br>
 `Step 5` Use </br>
 
-$x_s = x_o/(1+z) $ </br>
+
 $ F_s = (1+z) \times F_o $ 
-$X_{src} = f\frac{R_{BH}v^{2}}{G}$
+$X_{src} = \frac{X_{obs}}{1+z}$
 formulas to calculate the sourced wavelenght and sourced intensity.
