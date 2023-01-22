@@ -27,3 +27,13 @@ plt.plot(X,Y,marker="+")
 plt.grid()
 plt.xticks(np.linspace(4700,5150, 26), rotation = 90)
 plt.show()
+
+#Fitting the curve
+def gaussian(x, amp, mu, sig, c):
+    func = c + amp*np.exp(-np.power((x-mu)/sig,2))
+    return func
+
+def d_gaussian(x, amp1, mu1, sig1, c1, amp2, mu2, sig2, c2):
+    func1 = c1 + amp1*np.exp(-np.power((x-mu1)/sig1,2))
+    func2 = c2 + amp2*np.exp(-np.power((x-mu2)/sig2,2))
+    return func1 + func2
