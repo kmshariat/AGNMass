@@ -37,3 +37,17 @@ def d_gaussian(x, amp1, mu1, sig1, c1, amp2, mu2, sig2, c2):
     func1 = c1 + amp1*np.exp(-np.power((x-mu1)/sig1,2))
     func2 = c2 + amp2*np.exp(-np.power((x-mu2)/sig2,2))
     return func1 + func2
+
+#value estimation for fitting
+
+initial = [0.747*(10**45), 4860, 25.3, 0.804 * (10**45),  0.323*(10**45), 5006, 20, 0.75*(10**45)]
+bnd = ((0.745*(10**45), 4850, 25, 0.75*(10**45),   0.31*(10**45), 5000, 16, 0.70*(10**45)),   (0.75*(10**45), 4870, 26, 0.81*(10**45),   0.33*(10**45), 5010, 24, 0.76*(10**45)))
+
+popt, pcov = spo.curve_fit(d_gaussian, X, Y, p0= initial, bounds= bnd)
+yfit1= gaussian(X, *popt[0:4])
+yfit2= gaussian(X, *popt[4:8])
+
+plt.scatter(X,Y, s = 5, c = "orange", marker = '+', label = "Data")
+plt.plot(X, yfit1, label = "peak1")
+plt.plot(X, yfit2, label = "peak2")
+plt.show()
